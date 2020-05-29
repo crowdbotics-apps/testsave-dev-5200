@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Bankinfo
+from .models import Address, Bankinfo
 from django.contrib.auth import admin as auth_admin
 from django.contrib.auth import get_user_model
 
@@ -19,3 +19,4 @@ class UserAdmin(auth_admin.UserAdmin):
 
 
 admin.site.register(Bankinfo)
+admin.site.register(Address)

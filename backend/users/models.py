@@ -16,3 +16,8 @@ class Bankinfo(models.Model):
     "Generated Model"
     bankname = models.TextField()
     bankaddress = models.TextField()
+
+
+class Address(models.Model):
+    "Generated Model"
+    homeAddress = models.TextField()
